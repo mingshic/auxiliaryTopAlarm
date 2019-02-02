@@ -1,0 +1,2025 @@
+2018-05-23 17:43:46,090 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-23 17:43:46,090 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-05-23 17:43:46,090 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-05-23 17:43:46,090 INFO Included extra file "/etc/supervisor/config.d/mail_raw.ini" during parsing
+2018-05-23 17:43:46,115 INFO RPC interface 'supervisor' initialized
+2018-05-23 17:43:46,115 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-05-23 17:43:46,117 INFO daemonizing the supervisord process
+2018-05-23 17:43:46,118 INFO supervisord started with pid 23912
+2018-05-23 17:43:47,124 INFO spawned: 'alarm' with pid 23913
+2018-05-23 17:43:47,129 INFO spawned: 'format_data' with pid 23914
+2018-05-23 17:43:47,134 INFO spawned: 'mail_raw' with pid 23915
+2018-05-23 17:43:48,001 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:43:49,011 INFO spawned: 'alarm' with pid 23919
+2018-05-23 17:43:49,012 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:43:49,013 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:43:50,066 INFO success: alarm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:43:50,066 INFO exited: alarm (exit status 2; expected)
+2018-05-23 17:43:51,071 INFO spawned: 'alarm' with pid 23922
+2018-05-23 17:43:52,008 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:43:53,014 INFO spawned: 'alarm' with pid 23924
+2018-05-23 17:43:53,923 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:43:55,929 INFO spawned: 'alarm' with pid 23928
+2018-05-23 17:43:57,027 INFO success: alarm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:43:57,028 INFO exited: alarm (exit status 2; expected)
+2018-05-23 17:43:58,033 INFO spawned: 'alarm' with pid 23930
+2018-05-23 17:43:58,903 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:43:59,909 INFO spawned: 'alarm' with pid 23932
+2018-05-23 17:44:00,884 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:02,891 INFO spawned: 'alarm' with pid 23935
+2018-05-23 17:44:03,769 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:06,778 INFO spawned: 'alarm' with pid 23937
+2018-05-23 17:44:07,702 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:08,704 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-05-23 17:44:24,297 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-23 17:44:24,298 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-05-23 17:44:24,298 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-05-23 17:44:24,298 INFO Included extra file "/etc/supervisor/config.d/mail_raw.ini" during parsing
+2018-05-23 17:44:24,313 INFO RPC interface 'supervisor' initialized
+2018-05-23 17:44:24,313 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-05-23 17:44:24,314 INFO daemonizing the supervisord process
+2018-05-23 17:44:24,316 INFO supervisord started with pid 23942
+2018-05-23 17:44:25,322 INFO spawned: 'mail_raw' with pid 23943
+2018-05-23 17:44:25,327 INFO spawned: 'format_data' with pid 23944
+2018-05-23 17:44:25,331 INFO spawned: 'alarm' with pid 23945
+2018-05-23 17:44:26,229 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:27,029 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:44:27,030 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:44:28,042 INFO spawned: 'alarm' with pid 23950
+2018-05-23 17:44:28,978 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:30,984 INFO spawned: 'alarm' with pid 23952
+2018-05-23 17:44:31,904 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:34,912 INFO spawned: 'alarm' with pid 23954
+2018-05-23 17:44:35,850 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:44:36,852 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-05-23 17:46:06,853 WARN received SIGTERM indicating exit request
+2018-05-23 17:46:06,853 INFO waiting for format_data, mail_raw to die
+2018-05-23 17:46:06,859 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-05-23 17:46:06,864 INFO stopped: format_data (terminated by SIGTERM)
+2018-05-23 17:46:07,328 WARN received SIGTERM indicating exit request
+2018-05-23 17:46:07,329 INFO waiting for mail_raw, format_data to die
+2018-05-23 17:46:08,335 INFO stopped: format_data (terminated by SIGTERM)
+2018-05-23 17:46:09,342 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-05-23 17:46:09,459 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-23 17:46:09,460 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-05-23 17:46:09,460 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-05-23 17:46:09,460 INFO Included extra file "/etc/supervisor/config.d/mail_raw.ini" during parsing
+2018-05-23 17:46:09,484 INFO RPC interface 'supervisor' initialized
+2018-05-23 17:46:09,484 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-05-23 17:46:09,485 INFO daemonizing the supervisord process
+2018-05-23 17:46:09,487 INFO supervisord started with pid 23988
+2018-05-23 17:46:10,493 INFO spawned: 'mail_raw' with pid 23989
+2018-05-23 17:46:10,497 INFO spawned: 'format_data' with pid 23990
+2018-05-23 17:46:10,502 INFO spawned: 'alarm' with pid 23991
+2018-05-23 17:46:11,481 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:12,483 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:46:12,483 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:46:12,487 INFO spawned: 'alarm' with pid 23996
+2018-05-23 17:46:13,492 INFO success: alarm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:46:13,493 INFO exited: alarm (exit status 2; expected)
+2018-05-23 17:46:13,513 INFO spawned: 'alarm' with pid 23999
+2018-05-23 17:46:14,348 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:15,354 INFO spawned: 'alarm' with pid 24001
+2018-05-23 17:46:16,358 INFO success: alarm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:46:16,358 INFO exited: alarm (exit status 2; expected)
+2018-05-23 17:46:17,363 INFO spawned: 'alarm' with pid 24005
+2018-05-23 17:46:18,298 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:19,692 INFO spawned: 'alarm' with pid 24008
+2018-05-23 17:46:20,604 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:23,275 INFO spawned: 'alarm' with pid 24013
+2018-05-23 17:46:24,046 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:27,054 INFO spawned: 'alarm' with pid 24017
+2018-05-23 17:46:27,998 INFO exited: alarm (exit status 2; not expected)
+2018-05-23 17:46:29,000 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-05-23 17:47:57,629 WARN received SIGTERM indicating exit request
+2018-05-23 17:47:57,630 INFO waiting for mail_raw, format_data to die
+2018-05-23 17:47:58,638 INFO stopped: format_data (terminated by SIGTERM)
+2018-05-23 17:47:58,645 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-05-23 17:47:59,464 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-05-23 17:47:59,464 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-05-23 17:47:59,464 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-05-23 17:47:59,464 INFO Included extra file "/etc/supervisor/config.d/mail_raw.ini" during parsing
+2018-05-23 17:47:59,487 INFO RPC interface 'supervisor' initialized
+2018-05-23 17:47:59,487 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-05-23 17:47:59,489 INFO daemonizing the supervisord process
+2018-05-23 17:47:59,490 INFO supervisord started with pid 24045
+2018-05-23 17:48:00,495 INFO spawned: 'format_data' with pid 24046
+2018-05-23 17:48:00,500 INFO spawned: 'alarm' with pid 24047
+2018-05-23 17:48:00,503 INFO spawned: 'mail_raw' with pid 24048
+2018-05-23 17:48:01,505 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:48:01,506 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-23 17:48:03,652 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-05-23 21:23:49,579 INFO exited: mail_raw (exit status 1; not expected)
+2018-05-23 21:23:50,605 INFO spawned: 'mail_raw' with pid 26426
+2018-05-23 21:23:51,606 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-05-24 03:19:46,018 INFO exited: format_data (exit status 1; not expected)
+2018-05-24 03:19:47,036 INFO spawned: 'format_data' with pid 31431
+2018-05-24 03:19:48,039 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-21 17:10:08,692 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-06-21 17:10:08,692 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-06-21 17:10:08,692 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-06-21 17:10:08,692 INFO Included extra file "/etc/supervisor/config.d/post_mail.ini" during parsing
+2018-06-21 17:10:08,710 INFO RPC interface 'supervisor' initialized
+2018-06-21 17:10:08,710 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-06-21 17:10:08,711 INFO daemonizing the supervisord process
+2018-06-21 17:10:08,713 INFO supervisord started with pid 9933
+2018-06-21 17:10:09,719 INFO spawned: 'format_data' with pid 9934
+2018-06-21 17:10:09,723 INFO spawned: 'alarm' with pid 9935
+2018-06-21 17:10:09,727 INFO spawned: 'mail_raw' with pid 9936
+2018-06-21 17:10:10,730 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-21 17:10:10,730 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-21 17:10:12,733 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-06-21 17:13:03,373 INFO waiting for mail_raw to stop
+2018-06-21 17:13:03,377 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-06-27 12:03:14,974 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:03:15,991 INFO spawned: 'format_data' with pid 15535
+2018-06-27 12:03:16,994 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:10:03,200 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:10:04,207 INFO spawned: 'format_data' with pid 15568
+2018-06-27 12:10:05,210 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:53:04,627 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:53:05,635 INFO spawned: 'format_data' with pid 15721
+2018-06-27 12:53:06,638 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:53:31,309 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:53:32,314 INFO spawned: 'format_data' with pid 15724
+2018-06-27 12:53:33,317 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:53:52,930 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:53:53,935 INFO spawned: 'format_data' with pid 15727
+2018-06-27 12:53:54,938 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:55:14,716 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:55:15,722 INFO spawned: 'format_data' with pid 15731
+2018-06-27 12:55:16,724 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:56:01,425 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:56:02,430 INFO spawned: 'format_data' with pid 15734
+2018-06-27 12:56:03,432 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:56:28,054 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:56:29,059 INFO spawned: 'format_data' with pid 15737
+2018-06-27 12:56:30,062 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:56:59,693 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:57:00,698 INFO spawned: 'format_data' with pid 15739
+2018-06-27 12:57:01,701 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:57:26,396 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:57:27,401 INFO spawned: 'format_data' with pid 15743
+2018-06-27 12:57:28,404 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:57:48,035 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:57:49,040 INFO spawned: 'format_data' with pid 15745
+2018-06-27 12:57:50,042 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:58:19,685 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:58:20,690 INFO spawned: 'format_data' with pid 15747
+2018-06-27 12:58:21,693 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:58:41,310 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:58:42,315 INFO spawned: 'format_data' with pid 15754
+2018-06-27 12:58:43,318 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:59:08,013 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:59:09,018 INFO spawned: 'format_data' with pid 15756
+2018-06-27 12:59:10,020 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:59:29,660 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:59:30,665 INFO spawned: 'format_data' with pid 15760
+2018-06-27 12:59:31,668 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 12:59:51,291 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 12:59:52,297 INFO spawned: 'format_data' with pid 15764
+2018-06-27 12:59:53,299 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:00:17,927 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:00:18,932 INFO spawned: 'format_data' with pid 15780
+2018-06-27 13:00:19,935 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:00:44,551 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:00:45,556 INFO spawned: 'format_data' with pid 15784
+2018-06-27 13:00:46,558 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:01:06,175 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:01:07,180 INFO spawned: 'format_data' with pid 15819
+2018-06-27 13:01:08,182 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:01:32,804 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:01:33,809 INFO spawned: 'format_data' with pid 15821
+2018-06-27 13:01:34,812 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:01:59,508 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:02:00,513 INFO spawned: 'format_data' with pid 15824
+2018-06-27 13:02:01,516 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:02:46,187 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:02:47,193 INFO spawned: 'format_data' with pid 15833
+2018-06-27 13:02:48,195 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-06-27 13:03:07,909 INFO exited: format_data (exit status 1; not expected)
+2018-06-27 13:03:08,914 INFO spawned: 'format_data' with pid 15836
+2018-06-27 13:03:09,917 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-06 16:44:44,586 INFO waiting for format_data to stop
+2018-07-06 16:44:44,591 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-06 17:20:18,371 INFO spawned: 'format_data' with pid 11025
+2018-07-06 17:20:19,374 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-06 17:21:21,880 INFO spawned: 'mail_raw' with pid 11038
+2018-07-06 17:21:22,884 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 08:55:42,220 INFO waiting for format_data to stop
+2018-07-09 08:55:42,223 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 08:58:05,371 INFO waiting for alarm to stop
+2018-07-09 08:58:05,557 INFO stopped: alarm (exit status 0)
+2018-07-09 08:58:09,359 INFO spawned: 'alarm' with pid 31317
+2018-07-09 08:58:12,365 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 08:58:59,104 INFO waiting for alarm to stop
+2018-07-09 08:58:59,293 INFO stopped: alarm (exit status 0)
+2018-07-09 08:58:59,302 INFO spawned: 'alarm' with pid 31330
+2018-07-09 08:59:02,309 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 08:59:27,526 INFO waiting for alarm to stop
+2018-07-09 08:59:27,702 INFO stopped: alarm (exit status 0)
+2018-07-09 09:00:20,994 INFO spawned: 'alarm' with pid 31355
+2018-07-09 09:00:24,001 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 11:11:02,984 INFO spawned: 'format_data' with pid 3506
+2018-07-09 11:11:03,988 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 11:11:19,271 WARN received SIGTERM indicating exit request
+2018-07-09 11:11:19,272 INFO waiting for format_data, alarm, mail_raw to die
+2018-07-09 11:11:20,277 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-07-09 11:11:20,471 INFO stopped: alarm (exit status 0)
+2018-07-09 11:11:20,476 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 11:11:46,206 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-07-09 11:11:46,207 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-07-09 11:11:46,207 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-07-09 11:11:46,207 INFO Included extra file "/etc/supervisor/config.d/post_mail.ini" during parsing
+2018-07-09 11:11:46,230 INFO RPC interface 'supervisor' initialized
+2018-07-09 11:11:46,231 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-07-09 11:11:46,232 INFO daemonizing the supervisord process
+2018-07-09 11:11:46,234 INFO supervisord started with pid 3518
+2018-07-09 11:11:47,239 INFO spawned: 'format_data' with pid 3520
+2018-07-09 11:11:47,244 INFO spawned: 'alarm' with pid 3521
+2018-07-09 11:11:47,248 INFO spawned: 'mail_raw' with pid 3522
+2018-07-09 11:11:48,251 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 11:11:48,251 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 11:11:50,254 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 11:44:17,992 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:19,000 INFO spawned: 'alarm' with pid 3706
+2018-07-09 11:44:19,653 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:20,659 INFO spawned: 'alarm' with pid 3708
+2018-07-09 11:44:21,292 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:23,298 INFO spawned: 'alarm' with pid 3711
+2018-07-09 11:44:23,901 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:26,910 INFO spawned: 'alarm' with pid 3714
+2018-07-09 11:44:27,583 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 11:44:28,585 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-07-09 12:11:10,199 INFO spawned: 'alarm' with pid 11405
+2018-07-09 12:11:13,207 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 12:50:43,047 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 12:50:44,053 INFO spawned: 'format_data' with pid 12347
+2018-07-09 12:50:44,606 INFO waiting for format_data to stop
+2018-07-09 12:50:44,609 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 12:50:50,850 INFO spawned: 'format_data' with pid 12349
+2018-07-09 12:50:51,854 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 12:51:34,937 INFO waiting for format_data to stop
+2018-07-09 12:51:34,952 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 12:52:20,944 INFO spawned: 'format_data' with pid 12357
+2018-07-09 12:52:21,947 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 13:04:05,617 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 13:04:06,623 INFO spawned: 'format_data' with pid 13002
+2018-07-09 13:04:07,625 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 13:04:08,340 INFO waiting for format_data to stop
+2018-07-09 13:04:08,346 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 13:04:08,354 INFO spawned: 'format_data' with pid 13004
+2018-07-09 13:04:09,357 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 13:13:33,347 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 13:13:34,353 INFO spawned: 'format_data' with pid 13044
+2018-07-09 13:13:35,355 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 13:13:36,217 INFO waiting for format_data to stop
+2018-07-09 13:13:36,224 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 13:13:36,231 INFO spawned: 'format_data' with pid 13046
+2018-07-09 13:13:37,234 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 14:13:25,600 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:26,607 INFO spawned: 'alarm' with pid 13373
+2018-07-09 14:13:27,251 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:28,256 INFO spawned: 'alarm' with pid 13375
+2018-07-09 14:13:28,887 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:30,893 INFO spawned: 'alarm' with pid 13377
+2018-07-09 14:13:31,532 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:34,540 INFO spawned: 'alarm' with pid 13380
+2018-07-09 14:13:35,282 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 14:13:36,284 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-07-09 14:14:57,169 INFO spawned: 'alarm' with pid 13401
+2018-07-09 14:15:00,176 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-09 15:07:27,997 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:29,002 INFO spawned: 'alarm' with pid 15995
+2018-07-09 15:07:29,853 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:30,859 INFO spawned: 'alarm' with pid 15997
+2018-07-09 15:07:31,750 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:33,757 INFO spawned: 'alarm' with pid 16000
+2018-07-09 15:07:34,832 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:37,840 INFO spawned: 'alarm' with pid 16045
+2018-07-09 15:07:38,922 INFO exited: alarm (exit status 1; not expected)
+2018-07-09 15:07:39,924 INFO gave up: alarm entered FATAL state, too many start retries too quickly
+2018-07-09 15:21:06,148 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:07,162 INFO spawned: 'format_data' with pid 18041
+2018-07-09 15:21:08,164 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:13,045 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:14,050 INFO spawned: 'format_data' with pid 18044
+2018-07-09 15:21:15,053 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:18,762 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:19,768 INFO spawned: 'format_data' with pid 18050
+2018-07-09 15:21:20,770 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:24,315 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:25,321 INFO spawned: 'format_data' with pid 18053
+2018-07-09 15:21:26,324 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:29,625 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:30,630 INFO spawned: 'format_data' with pid 18055
+2018-07-09 15:21:31,633 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:34,942 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:35,946 INFO spawned: 'format_data' with pid 18057
+2018-07-09 15:21:36,949 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:39,978 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:40,984 INFO spawned: 'format_data' with pid 18059
+2018-07-09 15:21:41,986 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:46,111 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:46,115 INFO spawned: 'format_data' with pid 18065
+2018-07-09 15:21:47,118 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:50,167 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:51,173 INFO spawned: 'format_data' with pid 18067
+2018-07-09 15:21:52,175 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:21:56,107 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:21:57,112 INFO spawned: 'format_data' with pid 18069
+2018-07-09 15:21:58,114 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:01,238 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:02,243 INFO spawned: 'format_data' with pid 18073
+2018-07-09 15:22:03,246 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:06,137 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:07,142 INFO spawned: 'format_data' with pid 18075
+2018-07-09 15:22:08,145 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:11,610 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:12,615 INFO spawned: 'format_data' with pid 18077
+2018-07-09 15:22:13,618 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:16,705 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:17,710 INFO spawned: 'format_data' with pid 18079
+2018-07-09 15:22:18,712 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:21,712 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:23,011 INFO spawned: 'format_data' with pid 18088
+2018-07-09 15:22:24,014 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:27,386 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:28,391 INFO spawned: 'format_data' with pid 18091
+2018-07-09 15:22:29,394 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:32,458 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:33,463 INFO spawned: 'format_data' with pid 18093
+2018-07-09 15:22:34,466 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:37,467 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:38,472 INFO spawned: 'format_data' with pid 18095
+2018-07-09 15:22:39,475 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:42,552 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:43,557 INFO spawned: 'format_data' with pid 18097
+2018-07-09 15:22:44,560 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:47,582 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:48,588 INFO spawned: 'format_data' with pid 18099
+2018-07-09 15:22:49,590 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:52,839 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:53,844 INFO spawned: 'format_data' with pid 18101
+2018-07-09 15:22:54,846 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:22:58,254 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:22:59,260 INFO spawned: 'format_data' with pid 18104
+2018-07-09 15:23:00,262 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:03,454 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:04,459 INFO spawned: 'format_data' with pid 18106
+2018-07-09 15:23:05,462 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:08,518 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:09,523 INFO spawned: 'format_data' with pid 18108
+2018-07-09 15:23:10,526 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:13,895 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:14,900 INFO spawned: 'format_data' with pid 18110
+2018-07-09 15:23:15,903 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:19,167 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:20,172 INFO spawned: 'format_data' with pid 18112
+2018-07-09 15:23:21,175 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:24,352 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:25,489 INFO spawned: 'format_data' with pid 18114
+2018-07-09 15:23:26,491 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:29,654 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:30,660 INFO spawned: 'format_data' with pid 18116
+2018-07-09 15:23:31,662 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:34,866 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:35,872 INFO spawned: 'format_data' with pid 18120
+2018-07-09 15:23:36,875 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:41,037 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:42,042 INFO spawned: 'format_data' with pid 18123
+2018-07-09 15:23:43,045 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:53,164 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:54,169 INFO spawned: 'format_data' with pid 18126
+2018-07-09 15:23:55,171 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:23:58,202 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:23:59,281 INFO spawned: 'format_data' with pid 18128
+2018-07-09 15:24:00,284 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:24:03,651 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:24:04,656 INFO spawned: 'format_data' with pid 18133
+2018-07-09 15:24:05,659 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:24:11,548 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:24:11,552 INFO spawned: 'format_data' with pid 18135
+2018-07-09 15:24:12,554 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:24:15,872 INFO exited: format_data (exit status 1; not expected)
+2018-07-09 15:24:15,875 INFO spawned: 'format_data' with pid 18137
+2018-07-09 15:24:16,877 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-09 15:24:18,936 INFO waiting for format_data to stop
+2018-07-09 15:24:18,946 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-09 15:24:24,393 INFO waiting for mail_raw to stop
+2018-07-09 15:24:25,691 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-07-10 09:43:10,189 INFO spawned: 'alarm' with pid 31467
+2018-07-10 09:43:13,196 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-10 09:43:17,535 INFO spawned: 'mail_raw' with pid 31472
+2018-07-10 09:43:18,539 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:06,922 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:07,928 INFO spawned: 'mail_raw' with pid 17609
+2018-07-11 13:41:08,930 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:09,302 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:10,307 INFO spawned: 'mail_raw' with pid 17613
+2018-07-11 13:41:11,310 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:11,692 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:12,697 INFO spawned: 'mail_raw' with pid 17617
+2018-07-11 13:41:13,984 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:14,074 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:15,080 INFO spawned: 'mail_raw' with pid 17621
+2018-07-11 13:41:16,082 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:16,465 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-11 13:41:16,632 INFO spawned: 'mail_raw' with pid 17625
+2018-07-11 13:41:16,640 INFO waiting for alarm to stop
+2018-07-11 13:41:16,844 INFO stopped: alarm (exit status 0)
+2018-07-11 13:41:16,851 INFO spawned: 'alarm' with pid 17627
+2018-07-11 13:41:17,853 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 13:41:19,856 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-11 13:41:47,415 INFO spawned: 'format_data' with pid 17635
+2018-07-11 13:41:48,419 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 14:07:13,839 INFO waiting for format_data to stop
+2018-07-11 14:07:13,844 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-11 14:07:13,851 INFO spawned: 'format_data' with pid 17986
+2018-07-11 14:07:14,855 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 14:54:49,433 INFO exited: format_data (exit status 1; not expected)
+2018-07-11 14:54:50,439 INFO spawned: 'format_data' with pid 18154
+2018-07-11 14:54:51,442 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 18:32:33,174 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-07-11 18:32:33,174 INFO Included extra file "/etc/supervisor/config.d/alarm.ini" during parsing
+2018-07-11 18:32:33,174 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-07-11 18:32:33,174 INFO Included extra file "/etc/supervisor/config.d/post_mail.ini" during parsing
+2018-07-11 18:32:33,174 INFO Included extra file "/etc/supervisor/config.d/send_top.ini" during parsing
+2018-07-11 18:32:33,282 INFO RPC interface 'supervisor' initialized
+2018-07-11 18:32:33,282 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-07-11 18:32:33,284 INFO daemonizing the supervisord process
+2018-07-11 18:32:33,286 INFO supervisord started with pid 21759
+2018-07-11 18:32:34,292 INFO spawned: 'mail_raw' with pid 21760
+2018-07-11 18:32:34,297 INFO spawned: 'alarm' with pid 21761
+2018-07-11 18:32:34,301 INFO spawned: 'format_data' with pid 21762
+2018-07-11 18:32:34,305 INFO spawned: 'send_top' with pid 21763
+2018-07-11 18:32:35,307 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 18:32:35,308 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 18:32:35,308 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-11 18:32:38,004 INFO success: alarm entered RUNNING state, process has stayed up for > than 3 seconds (startsecs)
+2018-07-12 09:32:32,868 INFO waiting for send_top to stop
+2018-07-12 09:32:32,875 INFO stopped: send_top (terminated by SIGTERM)
+2018-07-12 10:18:30,478 INFO waiting for format_data to stop
+2018-07-12 10:18:30,484 INFO stopped: format_data (terminated by SIGTERM)
+2018-07-12 10:18:49,726 INFO spawned: 'format_data' with pid 25892
+2018-07-12 10:18:50,730 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-12 15:29:32,752 INFO spawned: 'send_top' with pid 27847
+2018-07-12 15:29:33,756 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-14 17:19:45,810 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-14 17:19:46,830 INFO spawned: 'mail_raw' with pid 8459
+2018-07-14 17:19:47,635 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-14 17:19:48,640 INFO spawned: 'mail_raw' with pid 8463
+2018-07-14 17:19:49,368 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-14 17:19:51,375 INFO spawned: 'mail_raw' with pid 8467
+2018-07-14 17:19:52,130 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-14 17:19:55,138 INFO spawned: 'mail_raw' with pid 8472
+2018-07-14 17:19:55,972 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-14 17:19:56,975 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-07-16 14:24:21,902 INFO spawned: 'mail_raw' with pid 19342
+2018-07-16 14:24:22,906 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-16 17:07:24,976 INFO exited: send_top (exit status 1; not expected)
+2018-07-16 17:07:25,989 INFO spawned: 'send_top' with pid 20026
+2018-07-16 17:07:26,947 INFO exited: send_top (exit status 1; not expected)
+2018-07-16 17:07:27,953 INFO spawned: 'send_top' with pid 20030
+2018-07-16 17:07:28,827 INFO exited: send_top (exit status 1; not expected)
+2018-07-16 17:07:30,834 INFO spawned: 'send_top' with pid 20034
+2018-07-16 17:07:31,704 INFO exited: send_top (exit status 1; not expected)
+2018-07-16 17:07:34,713 INFO spawned: 'send_top' with pid 20038
+2018-07-16 17:07:35,715 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-17 16:03:16,884 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-17 16:03:17,902 INFO spawned: 'mail_raw' with pid 25615
+2018-07-17 16:03:18,799 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-17 16:03:19,805 INFO spawned: 'mail_raw' with pid 25619
+2018-07-17 16:03:20,583 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-17 16:03:22,589 INFO spawned: 'mail_raw' with pid 25623
+2018-07-17 16:03:23,336 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-17 16:03:26,344 INFO spawned: 'mail_raw' with pid 25627
+2018-07-17 16:03:27,139 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-17 16:03:28,141 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-07-18 13:33:13,664 INFO exited: send_top (exit status 1; not expected)
+2018-07-18 13:33:14,682 INFO spawned: 'send_top' with pid 31269
+2018-07-18 13:33:15,677 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-18 13:33:15,678 INFO exited: send_top (exit status 1; not expected)
+2018-07-18 13:33:16,683 INFO spawned: 'send_top' with pid 31273
+2018-07-18 13:33:17,573 INFO exited: send_top (exit status 1; not expected)
+2018-07-18 13:33:18,578 INFO spawned: 'send_top' with pid 31277
+2018-07-18 13:33:19,481 INFO exited: send_top (exit status 1; not expected)
+2018-07-18 13:33:21,488 INFO spawned: 'send_top' with pid 31281
+2018-07-18 13:33:22,491 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-19 12:05:45,525 INFO exited: send_top (exit status 1; not expected)
+2018-07-19 12:05:46,542 INFO spawned: 'send_top' with pid 4641
+2018-07-19 12:05:47,496 INFO exited: send_top (exit status 1; not expected)
+2018-07-19 12:05:48,503 INFO spawned: 'send_top' with pid 4645
+2018-07-19 12:05:49,363 INFO exited: send_top (exit status 1; not expected)
+2018-07-19 12:05:51,370 INFO spawned: 'send_top' with pid 4649
+2018-07-19 12:05:52,373 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-23 11:02:01,556 INFO spawned: 'mail_raw' with pid 31364
+2018-07-23 11:02:02,560 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-24 19:27:38,191 INFO exited: send_top (exit status 1; not expected)
+2018-07-24 19:27:39,208 INFO spawned: 'send_top' with pid 8358
+2018-07-24 19:27:40,160 INFO exited: send_top (exit status 1; not expected)
+2018-07-24 19:27:41,165 INFO spawned: 'send_top' with pid 8362
+2018-07-24 19:27:42,034 INFO exited: send_top (exit status 1; not expected)
+2018-07-24 19:27:44,041 INFO spawned: 'send_top' with pid 8366
+2018-07-24 19:27:45,050 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-24 19:27:45,050 INFO exited: send_top (exit status 1; not expected)
+2018-07-24 19:27:46,055 INFO spawned: 'send_top' with pid 8370
+2018-07-24 19:27:47,058 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:16:53,080 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:16:54,091 INFO spawned: 'send_top' with pid 13532
+2018-07-25 12:16:55,094 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:16:56,070 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:16:57,076 INFO spawned: 'send_top' with pid 13567
+2018-07-25 12:16:58,079 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:01,041 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:02,050 INFO spawned: 'send_top' with pid 13571
+2018-07-25 12:17:03,053 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:04,048 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:05,054 INFO spawned: 'send_top' with pid 13576
+2018-07-25 12:17:06,057 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:08,974 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:09,979 INFO spawned: 'send_top' with pid 13581
+2018-07-25 12:17:10,982 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:11,973 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:12,979 INFO spawned: 'send_top' with pid 13585
+2018-07-25 12:17:13,982 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:16,899 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:17,904 INFO spawned: 'send_top' with pid 13589
+2018-07-25 12:17:18,907 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:19,900 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:20,906 INFO spawned: 'send_top' with pid 13593
+2018-07-25 12:17:21,908 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:24,797 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:25,803 INFO spawned: 'send_top' with pid 13597
+2018-07-25 12:17:26,806 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:27,797 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:28,803 INFO spawned: 'send_top' with pid 13602
+2018-07-25 12:17:29,806 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:32,800 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:33,806 INFO spawned: 'send_top' with pid 13606
+2018-07-25 12:17:34,808 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:35,807 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:36,813 INFO spawned: 'send_top' with pid 13610
+2018-07-25 12:17:37,815 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:40,869 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:41,875 INFO spawned: 'send_top' with pid 13614
+2018-07-25 12:17:42,878 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:43,873 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:44,878 INFO spawned: 'send_top' with pid 13618
+2018-07-25 12:17:45,881 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:48,769 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:49,774 INFO spawned: 'send_top' with pid 13641
+2018-07-25 12:17:50,776 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:51,786 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:52,791 INFO spawned: 'send_top' with pid 13645
+2018-07-25 12:17:53,794 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:17:57,725 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:17:58,731 INFO spawned: 'send_top' with pid 13661
+2018-07-25 12:18:00,716 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:00,717 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:01,722 INFO spawned: 'send_top' with pid 13665
+2018-07-25 12:18:02,725 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:05,660 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:06,665 INFO spawned: 'send_top' with pid 13678
+2018-07-25 12:18:07,668 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:08,672 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:09,676 INFO spawned: 'send_top' with pid 13683
+2018-07-25 12:18:10,681 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:13,574 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:14,580 INFO spawned: 'send_top' with pid 13687
+2018-07-25 12:18:15,582 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:16,571 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:17,576 INFO spawned: 'send_top' with pid 13706
+2018-07-25 12:18:18,578 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:22,461 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:23,465 INFO spawned: 'send_top' with pid 13712
+2018-07-25 12:18:24,521 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:25,523 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:26,528 INFO spawned: 'send_top' with pid 13716
+2018-07-25 12:18:27,531 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:30,407 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:31,412 INFO spawned: 'send_top' with pid 13720
+2018-07-25 12:18:32,415 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:33,411 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:34,416 INFO spawned: 'send_top' with pid 13724
+2018-07-25 12:18:35,419 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:38,258 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:39,263 INFO spawned: 'send_top' with pid 13729
+2018-07-25 12:18:40,266 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:42,239 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:43,244 INFO spawned: 'send_top' with pid 13734
+2018-07-25 12:18:44,247 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:48,091 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:49,096 INFO spawned: 'send_top' with pid 13752
+2018-07-25 12:18:50,120 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:51,122 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:52,127 INFO spawned: 'send_top' with pid 13756
+2018-07-25 12:18:53,130 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:56,111 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:18:57,116 INFO spawned: 'send_top' with pid 13762
+2018-07-25 12:18:58,119 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:18:59,110 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:19:00,115 INFO spawned: 'send_top' with pid 13766
+2018-07-25 12:19:01,117 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:19:03,984 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:19:04,990 INFO spawned: 'send_top' with pid 13770
+2018-07-25 12:19:05,993 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:19:06,986 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:19:07,991 INFO spawned: 'send_top' with pid 13774
+2018-07-25 12:19:08,994 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-25 12:19:11,854 INFO exited: send_top (exit status 1; not expected)
+2018-07-25 12:19:12,859 INFO spawned: 'send_top' with pid 13778
+2018-07-25 12:19:13,862 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:23:56,614 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:23:57,635 INFO spawned: 'send_top' with pid 23481
+2018-07-31 11:23:58,638 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:24:00,310 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 11:24:01,316 INFO spawned: 'format_data' with pid 23485
+2018-07-31 11:24:01,370 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 11:24:02,375 INFO spawned: 'format_data' with pid 23486
+2018-07-31 11:24:02,428 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 11:24:04,435 INFO spawned: 'format_data' with pid 23487
+2018-07-31 11:24:04,486 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 11:24:07,494 INFO spawned: 'format_data' with pid 23488
+2018-07-31 11:24:07,545 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 11:24:08,547 INFO gave up: format_data entered FATAL state, too many start retries too quickly
+2018-07-31 11:24:55,599 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:24:56,604 INFO spawned: 'send_top' with pid 23492
+2018-07-31 11:24:57,607 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:25:17,553 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:25:18,559 INFO spawned: 'send_top' with pid 23498
+2018-07-31 11:25:19,562 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:25:39,343 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:25:40,347 INFO spawned: 'send_top' with pid 23503
+2018-07-31 11:25:41,349 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:26:18,922 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:26:19,928 INFO spawned: 'send_top' with pid 23510
+2018-07-31 11:26:20,930 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:26:35,097 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:26:36,103 INFO spawned: 'mail_raw' with pid 23514
+2018-07-31 11:26:37,106 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:26:40,723 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:26:41,728 INFO spawned: 'send_top' with pid 23519
+2018-07-31 11:26:42,730 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:26:56,868 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:26:57,873 INFO spawned: 'mail_raw' with pid 23524
+2018-07-31 11:26:58,876 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:27:02,525 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:27:03,530 INFO spawned: 'send_top' with pid 23528
+2018-07-31 11:27:04,533 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:27:18,650 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:27:19,655 INFO spawned: 'mail_raw' with pid 23533
+2018-07-31 11:27:20,658 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:27:24,298 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:27:25,303 INFO spawned: 'send_top' with pid 23538
+2018-07-31 11:27:26,306 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:27:40,462 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:27:41,467 INFO spawned: 'mail_raw' with pid 23544
+2018-07-31 11:27:42,470 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:27:51,110 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:27:52,115 INFO spawned: 'send_top' with pid 23548
+2018-07-31 11:27:53,118 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:28:12,994 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:28:13,999 INFO spawned: 'send_top' with pid 23556
+2018-07-31 11:28:15,002 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:28:17,773 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:28:18,778 INFO spawned: 'mail_raw' with pid 23560
+2018-07-31 11:28:19,781 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:28:34,820 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:28:35,825 INFO spawned: 'send_top' with pid 23565
+2018-07-31 11:28:36,828 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:28:39,549 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:28:40,554 INFO spawned: 'mail_raw' with pid 23569
+2018-07-31 11:28:41,556 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:29:01,343 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:29:02,194 INFO spawned: 'mail_raw' with pid 23575
+2018-07-31 11:29:02,316 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:29:03,318 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:29:03,321 INFO spawned: 'send_top' with pid 23579
+2018-07-31 11:29:04,324 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:29:22,976 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:29:23,981 INFO spawned: 'mail_raw' with pid 23591
+2018-07-31 11:29:24,984 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:29:40,367 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:29:41,372 INFO spawned: 'send_top' with pid 23595
+2018-07-31 11:29:42,375 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:30:23,129 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:30:24,134 INFO spawned: 'send_top' with pid 23617
+2018-07-31 11:30:25,137 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:30:25,756 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:30:26,761 INFO spawned: 'mail_raw' with pid 23621
+2018-07-31 11:30:27,764 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:30:44,971 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:30:45,976 INFO spawned: 'send_top' with pid 23629
+2018-07-31 11:30:46,978 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:30:53,114 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:30:54,119 INFO spawned: 'mail_raw' with pid 23633
+2018-07-31 11:30:55,122 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:31:23,011 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:31:24,017 INFO spawned: 'send_top' with pid 23639
+2018-07-31 11:31:25,019 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:31:30,728 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:31:31,733 INFO spawned: 'mail_raw' with pid 23643
+2018-07-31 11:31:32,736 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:31:44,837 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:31:45,843 INFO spawned: 'send_top' with pid 23648
+2018-07-31 11:31:46,845 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:31:52,509 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:31:53,515 INFO spawned: 'mail_raw' with pid 23653
+2018-07-31 11:31:54,517 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:32:12,774 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:32:13,779 INFO spawned: 'send_top' with pid 23657
+2018-07-31 11:32:14,299 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:32:15,304 INFO spawned: 'mail_raw' with pid 23661
+2018-07-31 11:32:15,305 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:32:16,307 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:32:52,446 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:32:53,451 INFO spawned: 'mail_raw' with pid 23668
+2018-07-31 11:32:54,454 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:33:06,792 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:33:07,797 INFO spawned: 'send_top' with pid 23673
+2018-07-31 11:33:08,800 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:33:14,230 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:33:15,235 INFO spawned: 'mail_raw' with pid 23677
+2018-07-31 11:33:16,238 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:33:28,584 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:33:29,589 INFO spawned: 'send_top' with pid 23681
+2018-07-31 11:33:30,591 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:33:50,447 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:33:51,453 INFO spawned: 'send_top' with pid 23687
+2018-07-31 11:33:52,504 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:33:52,505 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:33:53,510 INFO spawned: 'mail_raw' with pid 23691
+2018-07-31 11:33:54,513 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:34:12,228 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:34:13,233 INFO spawned: 'send_top' with pid 23695
+2018-07-31 11:34:14,283 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:34:14,283 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:34:15,288 INFO spawned: 'mail_raw' with pid 23699
+2018-07-31 11:34:16,291 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:34:34,070 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:34:35,075 INFO spawned: 'send_top' with pid 23705
+2018-07-31 11:34:36,041 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:34:37,046 INFO spawned: 'mail_raw' with pid 23709
+2018-07-31 11:34:37,047 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:34:38,049 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:34:55,849 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:34:56,855 INFO spawned: 'send_top' with pid 23714
+2018-07-31 11:34:57,845 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:34:58,850 INFO spawned: 'mail_raw' with pid 23718
+2018-07-31 11:34:58,851 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:34:59,853 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:35:17,746 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:35:18,752 INFO spawned: 'send_top' with pid 23723
+2018-07-31 11:35:19,626 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:35:20,631 INFO spawned: 'mail_raw' with pid 23727
+2018-07-31 11:35:20,632 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:35:21,634 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:35:39,601 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:35:40,605 INFO spawned: 'send_top' with pid 23733
+2018-07-31 11:35:41,608 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:35:56,906 INFO exited: mail_raw (exit status 1; not expected)
+2018-07-31 11:35:57,911 INFO spawned: 'mail_raw' with pid 23737
+2018-07-31 11:35:58,914 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 11:36:01,445 INFO exited: send_top (exit status 1; not expected)
+2018-07-31 11:36:02,450 INFO spawned: 'send_top' with pid 23742
+2018-07-31 11:36:03,453 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-07-31 14:54:05,489 INFO spawned: 'format_data' with pid 24829
+2018-07-31 14:54:05,540 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 14:54:06,545 INFO spawned: 'format_data' with pid 24830
+2018-07-31 14:54:06,597 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 14:54:08,606 INFO spawned: 'format_data' with pid 24831
+2018-07-31 14:54:08,657 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 14:54:11,665 INFO spawned: 'format_data' with pid 24832
+2018-07-31 14:54:11,717 INFO exited: format_data (exit status 1; not expected)
+2018-07-31 14:54:12,719 INFO gave up: format_data entered FATAL state, too many start retries too quickly
+2018-07-31 14:56:01,331 INFO spawned: 'format_data' with pid 24851
+2018-07-31 14:56:02,335 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-01 12:01:27,766 INFO exited: send_top (exit status 1; not expected)
+2018-08-01 12:01:28,793 INFO spawned: 'send_top' with pid 31370
+2018-08-01 12:01:29,754 INFO exited: send_top (exit status 1; not expected)
+2018-08-01 12:01:30,759 INFO spawned: 'send_top' with pid 31374
+2018-08-01 12:01:31,618 INFO exited: send_top (exit status 1; not expected)
+2018-08-01 12:01:33,625 INFO spawned: 'send_top' with pid 31378
+2018-08-01 12:01:34,628 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-02 09:56:49,894 INFO exited: send_top (exit status 1; not expected)
+2018-08-02 09:56:50,912 INFO spawned: 'send_top' with pid 6238
+2018-08-02 09:56:51,850 INFO exited: send_top (exit status 1; not expected)
+2018-08-02 09:56:52,855 INFO spawned: 'send_top' with pid 6243
+2018-08-02 09:56:53,858 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 10:19:20,796 INFO exited: send_top (exit status 1; not expected)
+2018-08-08 10:19:21,847 INFO spawned: 'send_top' with pid 31201
+2018-08-08 10:19:22,849 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-08 10:19:26,694 INFO exited: send_top (exit status 1; not expected)
+2018-08-08 10:19:27,700 INFO spawned: 'send_top' with pid 31205
+2018-08-08 10:19:28,585 INFO exited: send_top (exit status 1; not expected)
+2018-08-08 10:19:29,590 INFO spawned: 'send_top' with pid 31209
+2018-08-08 10:19:30,572 INFO exited: send_top (exit status 1; not expected)
+2018-08-08 10:19:32,579 INFO spawned: 'send_top' with pid 31213
+2018-08-08 10:19:33,581 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-14 10:31:34,473 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:35,502 INFO spawned: 'mail_raw' with pid 20231
+2018-08-14 10:31:36,389 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:37,393 INFO spawned: 'mail_raw' with pid 20242
+2018-08-14 10:31:39,131 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-14 10:31:39,131 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:40,137 INFO spawned: 'mail_raw' with pid 20248
+2018-08-14 10:31:41,831 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-14 10:31:41,832 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:42,836 INFO spawned: 'mail_raw' with pid 20252
+2018-08-14 10:31:44,658 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-14 10:31:44,658 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:45,662 INFO spawned: 'mail_raw' with pid 20264
+2018-08-14 10:31:46,454 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:47,460 INFO spawned: 'mail_raw' with pid 20270
+2018-08-14 10:31:48,271 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:50,277 INFO spawned: 'mail_raw' with pid 20275
+2018-08-14 10:31:51,056 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:54,063 INFO spawned: 'mail_raw' with pid 20279
+2018-08-14 10:31:54,902 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-14 10:31:55,904 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-08-14 18:57:48,961 INFO exited: send_top (exit status 1; not expected)
+2018-08-14 18:57:49,979 INFO spawned: 'send_top' with pid 23792
+2018-08-14 18:57:50,982 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-14 19:02:15,959 INFO exited: send_top (exit status 1; not expected)
+2018-08-14 19:02:16,966 INFO spawned: 'send_top' with pid 23858
+2018-08-14 19:02:17,969 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-14 19:03:41,495 INFO exited: send_top (exit status 1; not expected)
+2018-08-14 19:03:42,501 INFO spawned: 'send_top' with pid 23866
+2018-08-14 19:03:43,503 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-14 19:19:01,275 INFO exited: send_top (exit status 1; not expected)
+2018-08-14 19:19:02,280 INFO spawned: 'send_top' with pid 23927
+2018-08-14 19:19:03,283 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-16 18:15:38,028 INFO exited: send_top (exit status 1; not expected)
+2018-08-16 18:15:39,046 INFO spawned: 'send_top' with pid 6553
+2018-08-16 18:15:39,989 INFO exited: send_top (exit status 1; not expected)
+2018-08-16 18:15:40,998 INFO spawned: 'send_top' with pid 6557
+2018-08-16 18:15:42,002 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-16 18:15:42,003 INFO exited: send_top (exit status 1; not expected)
+2018-08-16 18:15:43,008 INFO spawned: 'send_top' with pid 6561
+2018-08-16 18:15:43,976 INFO exited: send_top (exit status 1; not expected)
+2018-08-16 18:15:44,981 INFO spawned: 'send_top' with pid 6565
+2018-08-16 18:15:45,863 INFO exited: send_top (exit status 1; not expected)
+2018-08-16 18:15:47,870 INFO spawned: 'send_top' with pid 6569
+2018-08-16 18:15:48,820 INFO exited: send_top (exit status 1; not expected)
+2018-08-16 18:15:51,826 INFO spawned: 'send_top' with pid 6573
+2018-08-16 18:15:52,829 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 16:58:59,282 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 16:59:00,302 INFO spawned: 'send_top' with pid 17328
+2018-08-17 16:59:01,304 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 16:59:31,104 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 16:59:32,116 INFO spawned: 'format_data' with pid 17339
+2018-08-17 16:59:33,119 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:03:49,764 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:03:50,772 INFO spawned: 'format_data' with pid 17394
+2018-08-17 17:03:51,775 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:04:16,493 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:04:17,498 INFO spawned: 'format_data' with pid 17396
+2018-08-17 17:04:18,501 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:05:02,430 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:05:03,435 INFO spawned: 'send_top' with pid 17407
+2018-08-17 17:05:04,438 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:06:16,236 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:06:17,242 INFO spawned: 'send_top' with pid 17413
+2018-08-17 17:06:18,245 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:06:38,058 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:06:39,063 INFO spawned: 'send_top' with pid 17417
+2018-08-17 17:06:40,066 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:06:46,000 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:06:47,006 INFO spawned: 'format_data' with pid 17421
+2018-08-17 17:06:48,009 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:06:59,917 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:07:00,922 INFO spawned: 'send_top' with pid 17423
+2018-08-17 17:07:01,925 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:07:26,790 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:07:27,796 INFO spawned: 'send_top' with pid 17429
+2018-08-17 17:07:28,799 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:07:54,705 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:07:55,711 INFO spawned: 'send_top' with pid 17433
+2018-08-17 17:07:56,714 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:08:19,787 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:08:20,793 INFO spawned: 'format_data' with pid 17437
+2018-08-17 17:08:21,796 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:08:41,540 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:08:42,546 INFO spawned: 'format_data' with pid 17442
+2018-08-17 17:08:43,549 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:09:23,230 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:09:24,236 INFO spawned: 'send_top' with pid 17444
+2018-08-17 17:09:25,239 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:09:39,572 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:09:40,578 INFO spawned: 'format_data' with pid 17448
+2018-08-17 17:09:41,581 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:09:45,050 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:09:46,056 INFO spawned: 'send_top' with pid 17450
+2018-08-17 17:09:47,059 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:10:06,966 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:10:07,971 INFO spawned: 'send_top' with pid 17461
+2018-08-17 17:10:11,483 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:10:31,302 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:10:32,307 INFO spawned: 'format_data' with pid 17465
+2018-08-17 17:10:33,310 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:10:52,986 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:10:53,991 INFO spawned: 'format_data' with pid 17467
+2018-08-17 17:10:54,994 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:10:59,926 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:11:00,932 INFO spawned: 'send_top' with pid 17469
+2018-08-17 17:11:01,935 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:11:14,639 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:11:15,644 INFO spawned: 'format_data' with pid 17475
+2018-08-17 17:11:16,647 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:11:21,770 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:11:22,776 INFO spawned: 'send_top' with pid 17477
+2018-08-17 17:11:23,779 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:11:36,278 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:11:37,284 INFO spawned: 'format_data' with pid 17481
+2018-08-17 17:11:38,287 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:11:43,560 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:11:44,566 INFO spawned: 'send_top' with pid 17483
+2018-08-17 17:11:45,568 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:11:57,977 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:11:58,982 INFO spawned: 'format_data' with pid 17487
+2018-08-17 17:11:59,985 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:12:24,641 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:12:25,316 INFO spawned: 'format_data' with pid 17491
+2018-08-17 17:12:25,443 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:12:26,445 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:12:26,449 INFO spawned: 'send_top' with pid 17493
+2018-08-17 17:12:27,451 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:12:45,997 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:12:47,003 INFO spawned: 'format_data' with pid 17497
+2018-08-17 17:12:47,309 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:12:48,311 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:12:48,315 INFO spawned: 'send_top' with pid 17499
+2018-08-17 17:12:49,317 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:13:07,653 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:13:08,659 INFO spawned: 'format_data' with pid 17503
+2018-08-17 17:13:09,157 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:13:10,159 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:13:10,162 INFO spawned: 'send_top' with pid 17505
+2018-08-17 17:13:11,165 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:13:29,360 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:13:30,366 INFO spawned: 'format_data' with pid 17509
+2018-08-17 17:13:31,008 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:13:32,009 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:13:32,013 INFO spawned: 'send_top' with pid 17511
+2018-08-17 17:13:33,016 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:13:51,058 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:13:52,063 INFO spawned: 'format_data' with pid 17518
+2018-08-17 17:13:52,855 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:13:53,857 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:13:53,861 INFO spawned: 'send_top' with pid 17520
+2018-08-17 17:13:54,863 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:14:12,738 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:14:13,743 INFO spawned: 'format_data' with pid 17524
+2018-08-17 17:14:14,662 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:14:15,664 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:14:15,668 INFO spawned: 'send_top' with pid 17526
+2018-08-17 17:14:16,670 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:14:34,384 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:14:35,390 INFO spawned: 'format_data' with pid 17537
+2018-08-17 17:14:36,392 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:14:36,515 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:14:37,520 INFO spawned: 'send_top' with pid 17539
+2018-08-17 17:14:38,522 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:14:56,020 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:14:57,025 INFO spawned: 'format_data' with pid 17545
+2018-08-17 17:14:58,028 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:14:58,301 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:14:59,306 INFO spawned: 'send_top' with pid 17547
+2018-08-17 17:15:00,309 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:15:17,640 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:15:18,645 INFO spawned: 'format_data' with pid 17558
+2018-08-17 17:15:19,648 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:15:20,121 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:15:21,126 INFO spawned: 'send_top' with pid 17560
+2018-08-17 17:15:22,129 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:15:29,275 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:15:30,281 INFO spawned: 'format_data' with pid 17564
+2018-08-17 17:15:31,284 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:15:41,916 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:15:42,921 INFO spawned: 'send_top' with pid 17566
+2018-08-17 17:15:43,924 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:15:50,970 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:15:51,976 INFO spawned: 'format_data' with pid 17570
+2018-08-17 17:15:52,978 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:16:03,753 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:16:04,758 INFO spawned: 'send_top' with pid 17572
+2018-08-17 17:16:05,761 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:16:12,628 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:16:13,633 INFO spawned: 'format_data' with pid 17579
+2018-08-17 17:16:14,636 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:16:25,545 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:16:26,551 INFO spawned: 'send_top' with pid 17581
+2018-08-17 17:16:27,554 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:16:29,294 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:16:30,299 INFO spawned: 'format_data' with pid 17585
+2018-08-17 17:16:31,301 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:16:47,376 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:16:48,381 INFO spawned: 'send_top' with pid 17587
+2018-08-17 17:16:49,384 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:16:51,029 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:16:52,034 INFO spawned: 'format_data' with pid 17591
+2018-08-17 17:16:53,037 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:17:09,243 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:17:10,248 INFO spawned: 'send_top' with pid 17593
+2018-08-17 17:17:11,251 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:17:12,720 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:17:13,725 INFO spawned: 'format_data' with pid 17597
+2018-08-17 17:17:14,728 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:17:31,042 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:17:32,048 INFO spawned: 'send_top' with pid 17601
+2018-08-17 17:17:33,050 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:17:34,373 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:17:35,378 INFO spawned: 'format_data' with pid 17605
+2018-08-17 17:17:36,381 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:17:52,946 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:17:53,952 INFO spawned: 'send_top' with pid 17607
+2018-08-17 17:17:54,954 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:17:56,084 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:17:57,090 INFO spawned: 'format_data' with pid 17611
+2018-08-17 17:17:58,092 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:18:14,762 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:18:15,767 INFO spawned: 'send_top' with pid 17613
+2018-08-17 17:18:16,770 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:18:17,770 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:18:18,775 INFO spawned: 'format_data' with pid 17617
+2018-08-17 17:18:19,778 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:18:36,551 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:18:37,556 INFO spawned: 'send_top' with pid 17623
+2018-08-17 17:18:38,559 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:18:39,491 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:18:40,496 INFO spawned: 'format_data' with pid 17628
+2018-08-17 17:18:41,498 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:18:58,399 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:18:59,405 INFO spawned: 'send_top' with pid 17630
+2018-08-17 17:19:00,408 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:19:01,127 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:19:02,132 INFO spawned: 'format_data' with pid 17634
+2018-08-17 17:19:03,135 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:19:20,259 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:19:21,265 INFO spawned: 'send_top' with pid 17636
+2018-08-17 17:19:22,268 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:19:22,766 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:19:23,771 INFO spawned: 'format_data' with pid 17640
+2018-08-17 17:19:24,774 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:19:42,041 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:19:43,046 INFO spawned: 'send_top' with pid 17642
+2018-08-17 17:19:44,049 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:19:44,469 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:19:45,474 INFO spawned: 'format_data' with pid 17646
+2018-08-17 17:19:46,477 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:20:03,882 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:20:04,888 INFO spawned: 'send_top' with pid 17655
+2018-08-17 17:20:05,890 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:20:06,175 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:20:07,181 INFO spawned: 'format_data' with pid 17659
+2018-08-17 17:20:08,184 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:20:26,718 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:20:27,723 INFO spawned: 'send_top' with pid 17661
+2018-08-17 17:20:27,862 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:20:28,867 INFO spawned: 'format_data' with pid 17665
+2018-08-17 17:20:28,868 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:20:29,869 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:20:48,533 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:20:49,420 INFO spawned: 'send_top' with pid 17667
+2018-08-17 17:20:49,505 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:20:50,510 INFO spawned: 'format_data' with pid 17671
+2018-08-17 17:20:50,511 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:20:51,513 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:21:10,263 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:21:11,056 INFO spawned: 'send_top' with pid 17675
+2018-08-17 17:21:11,142 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:21:12,148 INFO spawned: 'format_data' with pid 17679
+2018-08-17 17:21:12,148 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:21:13,150 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:21:31,814 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:21:32,647 INFO spawned: 'send_top' with pid 17681
+2018-08-17 17:21:32,734 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:21:33,739 INFO spawned: 'format_data' with pid 17685
+2018-08-17 17:21:33,740 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:21:34,742 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:21:53,436 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:21:54,300 INFO spawned: 'send_top' with pid 17687
+2018-08-17 17:21:54,385 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:21:55,390 INFO spawned: 'format_data' with pid 17691
+2018-08-17 17:21:55,391 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:21:56,393 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:22:15,136 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:22:15,932 INFO spawned: 'send_top' with pid 17693
+2018-08-17 17:22:16,019 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:22:17,025 INFO spawned: 'format_data' with pid 17697
+2018-08-17 17:22:17,026 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:22:18,028 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:22:36,791 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:22:37,637 INFO spawned: 'send_top' with pid 17701
+2018-08-17 17:22:37,724 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:22:38,730 INFO spawned: 'format_data' with pid 17705
+2018-08-17 17:22:38,731 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:22:39,733 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:22:58,431 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:22:59,290 INFO spawned: 'send_top' with pid 17707
+2018-08-17 17:22:59,375 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:23:00,381 INFO spawned: 'format_data' with pid 17711
+2018-08-17 17:23:00,382 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:23:01,384 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:23:20,137 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:23:20,919 INFO spawned: 'send_top' with pid 17713
+2018-08-17 17:23:21,007 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:23:22,013 INFO spawned: 'format_data' with pid 17717
+2018-08-17 17:23:22,014 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:23:23,016 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:23:41,748 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:23:42,621 INFO spawned: 'send_top' with pid 17722
+2018-08-17 17:23:42,709 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:23:43,714 INFO spawned: 'format_data' with pid 17726
+2018-08-17 17:23:43,715 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:23:44,717 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:24:03,424 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:24:04,275 INFO spawned: 'send_top' with pid 17728
+2018-08-17 17:24:04,361 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:24:05,367 INFO spawned: 'format_data' with pid 17732
+2018-08-17 17:24:05,368 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:24:06,370 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:24:25,925 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:24:26,015 INFO spawned: 'send_top' with pid 17734
+2018-08-17 17:24:26,016 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:24:27,022 INFO spawned: 'format_data' with pid 17738
+2018-08-17 17:24:27,023 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:24:28,025 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:24:46,875 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:24:47,635 INFO spawned: 'send_top' with pid 17740
+2018-08-17 17:24:47,720 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:24:48,726 INFO spawned: 'format_data' with pid 17744
+2018-08-17 17:24:48,727 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:24:49,729 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:25:08,498 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:25:09,283 INFO spawned: 'send_top' with pid 17748
+2018-08-17 17:25:09,372 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:25:10,376 INFO spawned: 'format_data' with pid 17752
+2018-08-17 17:25:10,377 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:25:11,379 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:25:30,131 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:25:31,004 INFO spawned: 'send_top' with pid 17754
+2018-08-17 17:25:32,094 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:25:32,095 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:25:33,100 INFO spawned: 'format_data' with pid 17758
+2018-08-17 17:25:34,103 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:25:51,875 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:25:52,880 INFO spawned: 'send_top' with pid 17760
+2018-08-17 17:25:53,746 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:25:54,751 INFO spawned: 'format_data' with pid 17764
+2018-08-17 17:25:54,753 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:25:55,756 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:26:13,670 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:26:14,676 INFO spawned: 'send_top' with pid 17768
+2018-08-17 17:26:15,383 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:26:16,388 INFO spawned: 'format_data' with pid 17772
+2018-08-17 17:26:16,389 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:26:17,391 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:26:35,519 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:26:36,524 INFO spawned: 'send_top' with pid 17774
+2018-08-17 17:26:37,005 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:26:38,011 INFO spawned: 'format_data' with pid 17778
+2018-08-17 17:26:38,012 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:26:39,014 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:26:57,376 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:26:58,382 INFO spawned: 'send_top' with pid 17780
+2018-08-17 17:26:58,684 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:26:59,689 INFO spawned: 'format_data' with pid 17784
+2018-08-17 17:26:59,690 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:27:00,693 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:27:19,183 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:27:20,188 INFO spawned: 'send_top' with pid 17786
+2018-08-17 17:27:20,367 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:27:21,372 INFO spawned: 'format_data' with pid 17790
+2018-08-17 17:27:21,373 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:27:22,375 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:27:41,014 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:27:41,998 INFO spawned: 'send_top' with pid 17794
+2018-08-17 17:27:42,080 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:27:43,085 INFO spawned: 'format_data' with pid 17798
+2018-08-17 17:27:43,086 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:27:44,088 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:28:02,873 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:28:03,655 INFO spawned: 'send_top' with pid 17800
+2018-08-17 17:28:03,740 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:28:04,745 INFO spawned: 'format_data' with pid 17804
+2018-08-17 17:28:04,746 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:28:05,749 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:28:24,504 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:28:25,297 INFO spawned: 'send_top' with pid 17806
+2018-08-17 17:28:25,384 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:28:26,390 INFO spawned: 'format_data' with pid 17810
+2018-08-17 17:28:26,391 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:28:27,393 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:28:46,127 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:28:46,935 INFO spawned: 'send_top' with pid 17815
+2018-08-17 17:28:47,022 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:28:48,027 INFO spawned: 'format_data' with pid 17819
+2018-08-17 17:28:48,028 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:28:49,030 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:29:07,763 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:29:08,626 INFO spawned: 'send_top' with pid 17821
+2018-08-17 17:29:08,711 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:29:09,716 INFO spawned: 'format_data' with pid 17825
+2018-08-17 17:29:09,717 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:29:10,719 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:29:29,400 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:29:30,293 INFO spawned: 'send_top' with pid 17834
+2018-08-17 17:29:30,380 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:29:31,386 INFO spawned: 'format_data' with pid 17838
+2018-08-17 17:29:31,386 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:29:32,388 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:29:51,142 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:29:51,934 INFO spawned: 'send_top' with pid 17840
+2018-08-17 17:29:52,020 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:29:53,026 INFO spawned: 'format_data' with pid 17846
+2018-08-17 17:29:53,027 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:29:54,029 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:30:12,760 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:30:13,625 INFO spawned: 'send_top' with pid 17860
+2018-08-17 17:30:13,712 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:30:14,718 INFO spawned: 'format_data' with pid 17864
+2018-08-17 17:30:14,718 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:30:15,721 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:30:34,399 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:30:35,333 INFO spawned: 'send_top' with pid 17868
+2018-08-17 17:30:35,422 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:30:36,427 INFO spawned: 'format_data' with pid 17872
+2018-08-17 17:30:36,428 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:30:37,430 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:30:56,127 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:30:57,005 INFO spawned: 'send_top' with pid 17874
+2018-08-17 17:30:57,091 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:30:58,097 INFO spawned: 'format_data' with pid 17878
+2018-08-17 17:30:58,098 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:30:59,101 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:31:17,833 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:31:18,657 INFO spawned: 'send_top' with pid 17882
+2018-08-17 17:31:18,742 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:31:19,747 INFO spawned: 'format_data' with pid 17886
+2018-08-17 17:31:19,748 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:31:20,750 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:31:39,501 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:31:40,292 INFO spawned: 'send_top' with pid 17888
+2018-08-17 17:31:40,373 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:31:41,378 INFO spawned: 'format_data' with pid 17892
+2018-08-17 17:31:41,379 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:31:42,381 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:32:01,126 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:32:01,991 INFO spawned: 'send_top' with pid 17894
+2018-08-17 17:32:02,078 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:32:03,083 INFO spawned: 'format_data' with pid 17898
+2018-08-17 17:32:03,084 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:32:04,086 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:32:22,728 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:32:23,647 INFO spawned: 'send_top' with pid 17902
+2018-08-17 17:32:23,730 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:32:24,736 INFO spawned: 'format_data' with pid 17906
+2018-08-17 17:32:24,737 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:32:25,740 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:32:44,497 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:32:45,291 INFO spawned: 'send_top' with pid 17908
+2018-08-17 17:32:45,375 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:32:46,381 INFO spawned: 'format_data' with pid 17912
+2018-08-17 17:32:46,381 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:32:47,383 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:33:06,133 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:33:06,929 INFO spawned: 'send_top' with pid 17914
+2018-08-17 17:33:07,015 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:33:08,021 INFO spawned: 'format_data' with pid 17918
+2018-08-17 17:33:08,022 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:33:09,024 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:33:27,754 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:33:28,595 INFO spawned: 'send_top' with pid 17920
+2018-08-17 17:33:28,682 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:33:29,687 INFO spawned: 'format_data' with pid 17924
+2018-08-17 17:33:29,688 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:33:30,691 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:33:49,404 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:33:50,268 INFO spawned: 'send_top' with pid 17929
+2018-08-17 17:33:50,355 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:33:51,360 INFO spawned: 'format_data' with pid 17933
+2018-08-17 17:33:51,361 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:33:52,363 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:34:11,120 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:34:11,924 INFO spawned: 'send_top' with pid 17935
+2018-08-17 17:34:12,009 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:34:13,014 INFO spawned: 'format_data' with pid 17939
+2018-08-17 17:34:13,015 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:34:14,017 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:34:32,753 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:34:33,622 INFO spawned: 'send_top' with pid 17941
+2018-08-17 17:34:33,713 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:34:34,718 INFO spawned: 'format_data' with pid 17945
+2018-08-17 17:34:34,719 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:34:35,722 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:34:54,464 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 17:34:55,281 INFO spawned: 'send_top' with pid 17949
+2018-08-17 17:34:55,370 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 17:34:56,376 INFO spawned: 'format_data' with pid 17953
+2018-08-17 17:34:56,377 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 17:34:57,379 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:04:24,749 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:04:25,336 INFO spawned: 'send_top' with pid 19378
+2018-08-17 23:04:25,418 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:04:26,424 INFO spawned: 'format_data' with pid 19382
+2018-08-17 23:04:26,425 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:04:27,427 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:04:41,172 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:04:42,013 INFO spawned: 'send_top' with pid 19384
+2018-08-17 23:04:42,102 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:04:43,107 INFO spawned: 'format_data' with pid 19388
+2018-08-17 23:04:43,108 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:04:44,110 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:05:02,864 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:05:03,660 INFO spawned: 'send_top' with pid 19399
+2018-08-17 23:05:03,744 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:05:04,750 INFO spawned: 'format_data' with pid 19403
+2018-08-17 23:05:04,750 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:05:05,752 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:05:24,495 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:05:25,285 INFO spawned: 'send_top' with pid 19405
+2018-08-17 23:05:26,370 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:05:26,371 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:05:27,376 INFO spawned: 'format_data' with pid 19409
+2018-08-17 23:05:28,379 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:05:46,129 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:05:47,135 INFO spawned: 'send_top' with pid 19411
+2018-08-17 23:05:47,989 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:05:48,995 INFO spawned: 'format_data' with pid 19415
+2018-08-17 23:05:48,995 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:05:49,998 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:06:08,019 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:06:09,025 INFO spawned: 'send_top' with pid 19419
+2018-08-17 23:06:09,618 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:06:10,624 INFO spawned: 'format_data' with pid 19423
+2018-08-17 23:06:10,625 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:06:11,627 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:06:29,872 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:06:30,877 INFO spawned: 'send_top' with pid 19425
+2018-08-17 23:06:31,289 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:06:32,294 INFO spawned: 'format_data' with pid 19429
+2018-08-17 23:06:32,295 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:06:33,298 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:06:51,662 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:06:52,668 INFO spawned: 'send_top' with pid 19431
+2018-08-17 23:06:52,964 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:06:53,970 INFO spawned: 'format_data' with pid 19435
+2018-08-17 23:06:53,970 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:06:54,973 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:07:09,673 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:07:10,678 INFO spawned: 'format_data' with pid 19437
+2018-08-17 23:07:11,681 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:07:13,501 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:07:14,506 INFO spawned: 'send_top' with pid 19439
+2018-08-17 23:07:15,509 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:07:21,349 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:07:22,354 INFO spawned: 'format_data' with pid 19443
+2018-08-17 23:07:23,357 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:07:25,350 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:07:26,355 INFO spawned: 'send_top' with pid 19447
+2018-08-17 23:07:27,358 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:07:32,988 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:07:33,994 INFO spawned: 'format_data' with pid 19451
+2018-08-17 23:07:34,996 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:07:47,151 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:07:48,156 INFO spawned: 'send_top' with pid 19453
+2018-08-17 23:07:49,159 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:07:54,616 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:07:55,622 INFO spawned: 'format_data' with pid 19457
+2018-08-17 23:07:56,625 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:08:08,992 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:08:09,999 INFO spawned: 'send_top' with pid 19461
+2018-08-17 23:08:11,002 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:08:16,292 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:08:17,297 INFO spawned: 'format_data' with pid 19465
+2018-08-17 23:08:18,300 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:08:30,768 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:08:31,773 INFO spawned: 'send_top' with pid 19467
+2018-08-17 23:08:32,776 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:08:37,960 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:08:38,966 INFO spawned: 'format_data' with pid 19473
+2018-08-17 23:08:39,968 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:08:52,620 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:08:53,625 INFO spawned: 'send_top' with pid 19476
+2018-08-17 23:08:54,628 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:08:59,600 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:09:00,605 INFO spawned: 'format_data' with pid 19480
+2018-08-17 23:09:01,608 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:09:14,408 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:09:15,413 INFO spawned: 'send_top' with pid 19482
+2018-08-17 23:09:16,416 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:09:21,303 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:09:22,308 INFO spawned: 'format_data' with pid 19486
+2018-08-17 23:09:23,311 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:09:36,236 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:09:37,242 INFO spawned: 'send_top' with pid 19488
+2018-08-17 23:09:38,244 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:09:43,017 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:09:44,022 INFO spawned: 'format_data' with pid 19492
+2018-08-17 23:09:45,025 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:09:58,025 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:09:59,031 INFO spawned: 'send_top' with pid 19496
+2018-08-17 23:10:00,033 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:10:04,699 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:10:05,704 INFO spawned: 'format_data' with pid 19505
+2018-08-17 23:10:06,707 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:10:19,848 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:10:20,853 INFO spawned: 'send_top' with pid 19507
+2018-08-17 23:10:21,856 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:10:26,348 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:10:27,353 INFO spawned: 'format_data' with pid 19511
+2018-08-17 23:10:28,356 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:10:41,634 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:10:42,639 INFO spawned: 'send_top' with pid 19513
+2018-08-17 23:10:43,642 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:10:47,978 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:10:48,984 INFO spawned: 'format_data' with pid 19517
+2018-08-17 23:10:49,986 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:11:03,470 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:11:04,475 INFO spawned: 'send_top' with pid 19519
+2018-08-17 23:11:05,478 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:11:09,601 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:11:10,606 INFO spawned: 'format_data' with pid 19525
+2018-08-17 23:11:11,609 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:11:25,260 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:11:26,265 INFO spawned: 'send_top' with pid 19527
+2018-08-17 23:11:27,268 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:11:31,223 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:11:32,228 INFO spawned: 'format_data' with pid 19531
+2018-08-17 23:11:33,231 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:11:47,102 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:11:48,107 INFO spawned: 'send_top' with pid 19533
+2018-08-17 23:11:49,110 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:11:52,901 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:11:53,906 INFO spawned: 'format_data' with pid 19537
+2018-08-17 23:11:54,909 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:12:08,888 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:12:09,893 INFO spawned: 'send_top' with pid 19539
+2018-08-17 23:12:10,896 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:12:14,585 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:12:15,590 INFO spawned: 'format_data' with pid 19543
+2018-08-17 23:12:16,593 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:12:30,732 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:12:31,738 INFO spawned: 'send_top' with pid 19547
+2018-08-17 23:12:32,740 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:12:36,222 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:12:37,228 INFO spawned: 'format_data' with pid 19551
+2018-08-17 23:12:38,231 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:12:52,463 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:12:53,468 INFO spawned: 'send_top' with pid 19553
+2018-08-17 23:12:54,470 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:12:57,860 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:12:58,866 INFO spawned: 'format_data' with pid 19557
+2018-08-17 23:12:59,869 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:13:14,252 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:13:15,257 INFO spawned: 'send_top' with pid 19559
+2018-08-17 23:13:16,260 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:13:19,491 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:13:20,496 INFO spawned: 'format_data' with pid 19563
+2018-08-17 23:13:21,499 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:13:36,031 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:13:37,036 INFO spawned: 'send_top' with pid 19565
+2018-08-17 23:13:38,039 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:13:41,238 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:13:42,243 INFO spawned: 'format_data' with pid 19574
+2018-08-17 23:13:43,246 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:13:57,856 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:13:58,861 INFO spawned: 'send_top' with pid 19576
+2018-08-17 23:13:59,864 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:14:02,857 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:14:03,862 INFO spawned: 'format_data' with pid 19580
+2018-08-17 23:14:04,865 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:14:19,646 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:14:20,652 INFO spawned: 'send_top' with pid 19582
+2018-08-17 23:14:21,655 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:14:24,481 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:14:25,487 INFO spawned: 'format_data' with pid 19586
+2018-08-17 23:14:26,490 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:14:41,485 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:14:42,491 INFO spawned: 'send_top' with pid 19595
+2018-08-17 23:14:43,493 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:14:46,104 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:14:47,110 INFO spawned: 'format_data' with pid 19599
+2018-08-17 23:14:48,113 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:15:03,267 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:15:04,272 INFO spawned: 'send_top' with pid 19610
+2018-08-17 23:15:05,275 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:15:07,729 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:15:08,734 INFO spawned: 'format_data' with pid 19614
+2018-08-17 23:15:09,737 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:15:25,107 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:15:26,113 INFO spawned: 'send_top' with pid 19616
+2018-08-17 23:15:27,116 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:15:29,361 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:15:30,366 INFO spawned: 'format_data' with pid 19620
+2018-08-17 23:15:31,369 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:15:46,895 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:15:47,901 INFO spawned: 'send_top' with pid 19622
+2018-08-17 23:15:48,904 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:15:50,984 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:15:51,990 INFO spawned: 'format_data' with pid 19626
+2018-08-17 23:15:52,992 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:16:08,737 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:16:09,743 INFO spawned: 'send_top' with pid 19630
+2018-08-17 23:16:10,746 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:16:12,611 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:16:13,617 INFO spawned: 'format_data' with pid 19634
+2018-08-17 23:16:14,620 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:16:30,599 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:16:31,604 INFO spawned: 'send_top' with pid 19636
+2018-08-17 23:16:32,607 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:16:34,237 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:16:35,242 INFO spawned: 'format_data' with pid 19640
+2018-08-17 23:16:36,245 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:16:52,395 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:16:53,400 INFO spawned: 'send_top' with pid 19642
+2018-08-17 23:16:54,403 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:16:55,939 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:16:56,944 INFO spawned: 'format_data' with pid 19646
+2018-08-17 23:16:57,946 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:17:14,236 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:17:15,242 INFO spawned: 'send_top' with pid 19648
+2018-08-17 23:17:16,245 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:17:17,600 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:17:18,606 INFO spawned: 'format_data' with pid 19652
+2018-08-17 23:17:19,608 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:17:36,100 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:17:37,105 INFO spawned: 'send_top' with pid 19656
+2018-08-17 23:17:38,108 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:17:39,227 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:17:40,233 INFO spawned: 'format_data' with pid 19660
+2018-08-17 23:17:41,236 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:17:57,897 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:17:58,903 INFO spawned: 'send_top' with pid 19662
+2018-08-17 23:17:59,905 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:18:00,849 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:18:01,855 INFO spawned: 'format_data' with pid 19666
+2018-08-17 23:18:02,858 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:18:19,724 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:18:20,729 INFO spawned: 'send_top' with pid 19668
+2018-08-17 23:18:21,732 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:18:22,476 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:18:23,482 INFO spawned: 'format_data' with pid 19672
+2018-08-17 23:18:24,485 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:18:41,513 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:18:42,519 INFO spawned: 'send_top' with pid 19677
+2018-08-17 23:18:43,522 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:18:44,106 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:18:45,111 INFO spawned: 'format_data' with pid 19681
+2018-08-17 23:18:46,114 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:19:03,290 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:19:04,296 INFO spawned: 'send_top' with pid 19683
+2018-08-17 23:19:05,298 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:19:05,738 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:19:06,743 INFO spawned: 'format_data' with pid 19687
+2018-08-17 23:19:07,746 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:19:25,114 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:19:26,120 INFO spawned: 'send_top' with pid 19689
+2018-08-17 23:19:27,122 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:19:27,435 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:19:28,441 INFO spawned: 'format_data' with pid 19693
+2018-08-17 23:19:29,444 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:19:46,964 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:19:47,969 INFO spawned: 'send_top' with pid 19695
+2018-08-17 23:19:48,972 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:19:49,163 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:19:50,169 INFO spawned: 'format_data' with pid 19699
+2018-08-17 23:19:51,172 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:20:08,768 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:20:09,773 INFO spawned: 'send_top' with pid 19708
+2018-08-17 23:20:10,834 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:20:10,834 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:20:11,840 INFO spawned: 'format_data' with pid 19712
+2018-08-17 23:20:12,843 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:20:30,614 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:20:31,620 INFO spawned: 'send_top' with pid 19714
+2018-08-17 23:20:32,472 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:20:33,477 INFO spawned: 'format_data' with pid 19718
+2018-08-17 23:20:33,478 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:20:34,480 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:20:52,559 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:20:53,564 INFO spawned: 'send_top' with pid 19720
+2018-08-17 23:20:54,098 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:20:55,103 INFO spawned: 'format_data' with pid 19724
+2018-08-17 23:20:55,104 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:20:56,107 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:21:14,383 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:21:15,389 INFO spawned: 'send_top' with pid 19728
+2018-08-17 23:21:15,720 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:21:16,725 INFO spawned: 'format_data' with pid 19732
+2018-08-17 23:21:16,726 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:21:17,728 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:21:36,271 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:21:37,269 INFO spawned: 'send_top' with pid 19734
+2018-08-17 23:21:37,355 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:21:38,361 INFO spawned: 'format_data' with pid 19738
+2018-08-17 23:21:38,362 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:21:39,365 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:21:58,097 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:21:58,903 INFO spawned: 'send_top' with pid 19740
+2018-08-17 23:21:58,989 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:21:59,995 INFO spawned: 'format_data' with pid 19744
+2018-08-17 23:21:59,996 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:22:00,998 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:22:19,717 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:22:20,606 INFO spawned: 'send_top' with pid 19746
+2018-08-17 23:22:20,690 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:22:21,695 INFO spawned: 'format_data' with pid 19750
+2018-08-17 23:22:21,696 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:22:22,698 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:22:41,387 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:22:42,255 INFO spawned: 'send_top' with pid 19754
+2018-08-17 23:22:42,342 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:22:43,347 INFO spawned: 'format_data' with pid 19758
+2018-08-17 23:22:43,348 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:22:44,350 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:23:03,101 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:23:03,891 INFO spawned: 'send_top' with pid 19760
+2018-08-17 23:23:03,980 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:23:04,985 INFO spawned: 'format_data' with pid 19764
+2018-08-17 23:23:04,986 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:23:05,988 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:23:24,726 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:23:25,592 INFO spawned: 'send_top' with pid 19766
+2018-08-17 23:23:25,678 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:23:26,683 INFO spawned: 'format_data' with pid 19770
+2018-08-17 23:23:26,684 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:23:27,686 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:23:46,463 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:23:47,252 INFO spawned: 'send_top' with pid 19775
+2018-08-17 23:23:47,338 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:23:48,343 INFO spawned: 'format_data' with pid 19779
+2018-08-17 23:23:48,344 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:23:49,346 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:24:08,095 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:24:08,896 INFO spawned: 'send_top' with pid 19783
+2018-08-17 23:24:08,983 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:24:09,989 INFO spawned: 'format_data' with pid 19787
+2018-08-17 23:24:09,990 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:24:10,992 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:24:29,737 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:24:30,590 INFO spawned: 'send_top' with pid 19789
+2018-08-17 23:24:30,678 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:24:31,683 INFO spawned: 'format_data' with pid 19793
+2018-08-17 23:24:31,684 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:24:32,686 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:24:51,382 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:24:52,249 INFO spawned: 'send_top' with pid 19795
+2018-08-17 23:24:52,337 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:24:53,342 INFO spawned: 'format_data' with pid 19801
+2018-08-17 23:24:53,343 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:24:54,345 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:25:13,099 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:25:13,893 INFO spawned: 'send_top' with pid 19803
+2018-08-17 23:25:13,976 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:25:14,982 INFO spawned: 'format_data' with pid 19807
+2018-08-17 23:25:14,983 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:25:15,985 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:25:34,736 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:25:35,524 INFO spawned: 'send_top' with pid 19809
+2018-08-17 23:25:35,610 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:25:36,614 INFO spawned: 'format_data' with pid 19813
+2018-08-17 23:25:36,615 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:25:37,617 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:25:56,350 INFO exited: send_top (exit status 1; not expected)
+2018-08-17 23:25:57,217 INFO spawned: 'send_top' with pid 19815
+2018-08-17 23:25:57,303 INFO exited: format_data (exit status 1; not expected)
+2018-08-17 23:25:58,308 INFO spawned: 'format_data' with pid 19819
+2018-08-17 23:25:58,309 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-17 23:25:59,311 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-22 10:20:21,931 INFO spawned: 'mail_raw' with pid 19788
+2018-08-22 10:20:22,935 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-22 12:03:02,150 INFO exited: send_top (exit status 1; not expected)
+2018-08-22 12:03:03,168 INFO spawned: 'send_top' with pid 20480
+2018-08-22 12:03:04,157 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-22 12:03:04,158 INFO exited: send_top (exit status 1; not expected)
+2018-08-22 12:03:05,163 INFO spawned: 'send_top' with pid 20484
+2018-08-22 12:03:06,166 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-22 16:56:43,246 INFO exited: send_top (exit status 1; not expected)
+2018-08-22 16:56:44,266 INFO spawned: 'send_top' with pid 22063
+2018-08-22 16:56:45,269 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-31 14:49:34,433 INFO exited: send_top (exit status 1; not expected)
+2018-08-31 14:49:35,450 INFO spawned: 'send_top' with pid 25838
+2018-08-31 14:49:36,373 INFO exited: send_top (exit status 1; not expected)
+2018-08-31 14:49:37,379 INFO spawned: 'send_top' with pid 25842
+2018-08-31 14:49:38,237 INFO exited: send_top (exit status 1; not expected)
+2018-08-31 14:49:40,243 INFO spawned: 'send_top' with pid 25846
+2018-08-31 14:49:41,050 INFO exited: send_top (exit status 1; not expected)
+2018-08-31 14:49:44,057 INFO spawned: 'send_top' with pid 25850
+2018-08-31 14:49:45,060 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-31 18:29:01,442 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:02,458 INFO spawned: 'mail_raw' with pid 26812
+2018-08-31 18:29:03,337 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:04,343 INFO spawned: 'mail_raw' with pid 26816
+2018-08-31 18:29:05,072 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:07,078 INFO spawned: 'mail_raw' with pid 26820
+2018-08-31 18:29:07,832 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:10,840 INFO spawned: 'mail_raw' with pid 26824
+2018-08-31 18:29:12,642 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-08-31 18:29:12,643 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:13,648 INFO spawned: 'mail_raw' with pid 26828
+2018-08-31 18:29:14,484 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:15,489 INFO spawned: 'mail_raw' with pid 26832
+2018-08-31 18:29:16,275 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:18,281 INFO spawned: 'mail_raw' with pid 26836
+2018-08-31 18:29:19,065 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:22,073 INFO spawned: 'mail_raw' with pid 26840
+2018-08-31 18:29:22,843 INFO exited: mail_raw (exit status 1; not expected)
+2018-08-31 18:29:23,845 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-09-05 10:42:15,010 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 10:42:16,024 INFO spawned: 'send_top' with pid 27521
+2018-09-05 10:42:16,960 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 10:42:17,965 INFO spawned: 'send_top' with pid 27525
+2018-09-05 10:42:18,894 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 10:42:20,901 INFO spawned: 'send_top' with pid 27529
+2018-09-05 10:42:21,860 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 10:42:24,869 INFO spawned: 'send_top' with pid 27533
+2018-09-05 10:42:25,871 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-05 10:54:50,388 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 10:54:51,396 INFO spawned: 'send_top' with pid 27587
+2018-09-05 10:54:52,335 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 10:54:53,340 INFO spawned: 'send_top' with pid 27591
+2018-09-05 10:54:54,245 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 10:54:56,251 INFO spawned: 'send_top' with pid 27597
+2018-09-05 10:54:57,254 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-05 16:33:53,018 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 16:33:54,032 INFO spawned: 'send_top' with pid 30397
+2018-09-05 16:33:54,955 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 16:33:55,959 INFO spawned: 'send_top' with pid 30401
+2018-09-05 16:33:56,837 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 16:33:58,844 INFO spawned: 'send_top' with pid 30407
+2018-09-05 16:33:59,798 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 16:34:02,806 INFO spawned: 'send_top' with pid 30411
+2018-09-05 16:34:03,734 INFO exited: send_top (exit status 1; not expected)
+2018-09-05 16:34:04,736 INFO gave up: send_top entered FATAL state, too many start retries too quickly
+2018-09-06 15:54:47,389 INFO spawned: 'mail_raw' with pid 4748
+2018-09-06 15:54:48,393 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 15:54:51,791 INFO spawned: 'send_top' with pid 4752
+2018-09-06 15:54:52,795 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 15:56:54,184 INFO waiting for mail_raw to stop
+2018-09-06 15:56:54,190 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-09-06 17:44:57,364 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:44:58,375 INFO spawned: 'send_top' with pid 6508
+2018-09-06 17:44:59,378 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 17:44:59,862 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:45:00,869 INFO spawned: 'send_top' with pid 6512
+2018-09-06 17:45:01,802 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:45:02,807 INFO spawned: 'send_top' with pid 6516
+2018-09-06 17:45:03,694 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:45:05,701 INFO spawned: 'send_top' with pid 6527
+2018-09-06 17:45:06,727 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 17:45:06,727 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:45:07,733 INFO spawned: 'send_top' with pid 6531
+2018-09-06 17:45:08,645 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:45:09,651 INFO spawned: 'send_top' with pid 6535
+2018-09-06 17:45:10,651 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 17:45:10,652 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:45:11,657 INFO spawned: 'send_top' with pid 6539
+2018-09-06 17:45:12,659 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 17:45:12,659 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:45:13,664 INFO spawned: 'send_top' with pid 6545
+2018-09-06 17:45:14,527 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 17:45:15,532 INFO spawned: 'send_top' with pid 6549
+2018-09-06 17:45:16,535 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 18:15:05,996 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:07,037 INFO spawned: 'send_top' with pid 6724
+2018-09-06 18:15:08,039 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 18:15:12,227 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:13,232 INFO spawned: 'send_top' with pid 6730
+2018-09-06 18:15:14,084 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:15,089 INFO spawned: 'send_top' with pid 6734
+2018-09-06 18:15:15,935 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:17,942 INFO spawned: 'send_top' with pid 6738
+2018-09-06 18:15:18,973 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 18:15:18,973 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:19,978 INFO spawned: 'send_top' with pid 6742
+2018-09-06 18:15:20,935 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:21,940 INFO spawned: 'send_top' with pid 6746
+2018-09-06 18:15:22,845 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:24,852 INFO spawned: 'send_top' with pid 6750
+2018-09-06 18:15:25,907 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 18:15:25,908 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:26,913 INFO spawned: 'send_top' with pid 6754
+2018-09-06 18:15:27,874 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:28,879 INFO spawned: 'send_top' with pid 6758
+2018-09-06 18:15:29,974 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 18:15:29,974 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:30,979 INFO spawned: 'send_top' with pid 6762
+2018-09-06 18:15:31,926 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:32,931 INFO spawned: 'send_top' with pid 6766
+2018-09-06 18:15:33,766 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:35,772 INFO spawned: 'send_top' with pid 6770
+2018-09-06 18:15:36,626 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:39,634 INFO spawned: 'send_top' with pid 6774
+2018-09-06 18:15:40,533 INFO exited: send_top (exit status 1; not expected)
+2018-09-06 18:15:41,535 INFO gave up: send_top entered FATAL state, too many start retries too quickly
+2018-09-12 10:34:09,361 INFO spawned: 'mail_raw' with pid 30943
+2018-09-12 10:34:10,380 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-12 10:42:07,800 INFO waiting for format_data to stop
+2018-09-12 10:42:07,832 INFO stopped: format_data (terminated by SIGTERM)
+2018-09-12 10:42:07,947 INFO spawned: 'format_data' with pid 31030
+2018-09-12 10:42:08,951 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-12 10:42:33,554 INFO waiting for format_data to stop
+2018-09-12 10:42:33,560 INFO stopped: format_data (terminated by SIGTERM)
+2018-09-12 10:46:46,378 INFO waiting for mail_raw to stop
+2018-09-12 10:46:46,385 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-09-12 11:15:35,612 INFO spawned: 'format_data' with pid 31560
+2018-09-12 11:15:36,633 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-12 11:15:42,447 INFO spawned: 'mail_raw' with pid 31563
+2018-09-12 11:15:43,450 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-12 11:15:48,307 INFO spawned: 'send_top' with pid 31567
+2018-09-12 11:15:49,311 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-12 11:30:53,334 INFO waiting for send_top to stop
+2018-09-12 11:30:53,341 INFO stopped: send_top (terminated by SIGTERM)
+2018-09-12 11:37:19,390 INFO spawned: 'send_top' with pid 31741
+2018-09-12 11:37:20,393 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-12 11:37:28,457 INFO waiting for send_top to stop
+2018-09-12 11:37:28,463 INFO stopped: send_top (terminated by SIGTERM)
+2018-09-17 14:05:14,123 INFO spawned: 'send_top' with pid 11761
+2018-09-17 14:05:15,139 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:39:46,221 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 13:39:47,237 INFO spawned: 'send_top' with pid 29345
+2018-09-19 13:39:48,268 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:39:48,268 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 13:39:49,273 INFO spawned: 'send_top' with pid 29349
+2018-09-19 13:39:50,089 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 13:39:51,094 INFO spawned: 'send_top' with pid 29353
+2018-09-19 13:39:52,062 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 13:39:54,068 INFO spawned: 'send_top' with pid 29357
+2018-09-19 13:39:54,999 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 13:39:58,007 INFO spawned: 'send_top' with pid 29364
+2018-09-19 13:39:59,010 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 14:23:21,941 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 14:23:22,948 INFO spawned: 'send_top' with pid 29752
+2018-09-19 14:23:23,950 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 14:49:02,544 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 14:49:03,551 INFO spawned: 'send_top' with pid 29972
+2018-09-19 14:49:04,514 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 14:49:05,519 INFO spawned: 'send_top' with pid 29976
+2018-09-19 14:49:06,329 INFO exited: send_top (exit status 1; not expected)
+2018-09-19 14:49:08,336 INFO spawned: 'send_top' with pid 29980
+2018-09-19 14:49:09,338 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 11:25:27,331 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-09-29 11:25:27,331 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-09-29 11:25:27,331 INFO Included extra file "/etc/supervisor/config.d/get_mail.ini" during parsing
+2018-09-29 11:25:27,331 INFO Included extra file "/etc/supervisor/config.d/send_top.ini" during parsing
+2018-09-29 11:25:28,122 INFO RPC interface 'supervisor' initialized
+2018-09-29 11:25:28,122 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-29 11:25:28,125 INFO daemonizing the supervisord process
+2018-09-29 11:25:28,127 INFO supervisord started with pid 27332
+2018-09-29 11:25:29,134 INFO spawned: 'format_data' with pid 27334
+2018-09-29 11:25:29,138 INFO spawned: 'mail_raw' with pid 27335
+2018-09-29 11:25:29,143 INFO spawned: 'send_top' with pid 27336
+2018-09-29 11:25:29,184 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:25:30,186 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 11:25:30,189 INFO spawned: 'mail_raw' with pid 27337
+2018-09-29 11:25:30,190 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 11:25:30,234 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:25:32,778 INFO spawned: 'mail_raw' with pid 27341
+2018-09-29 11:25:32,824 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:25:34,537 INFO exited: format_data (exit status 1; not expected)
+2018-09-29 11:25:34,586 INFO spawned: 'format_data' with pid 27346
+2018-09-29 11:25:34,587 INFO exited: send_top (exit status 1; not expected)
+2018-09-29 11:25:34,952 INFO spawned: 'send_top' with pid 27350
+2018-09-29 11:25:34,997 INFO exited: format_data (exit status 1; not expected)
+2018-09-29 11:25:35,379 INFO exited: send_top (exit status 1; not expected)
+2018-09-29 11:25:36,384 INFO spawned: 'format_data' with pid 27354
+2018-09-29 11:25:36,389 INFO spawned: 'mail_raw' with pid 27355
+2018-09-29 11:25:36,392 INFO spawned: 'send_top' with pid 27356
+2018-09-29 11:25:36,760 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:25:36,765 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-09-29 11:25:36,808 INFO exited: send_top (exit status 1; not expected)
+2018-09-29 11:25:36,814 INFO exited: format_data (exit status 1; not expected)
+2018-09-29 11:25:38,819 INFO spawned: 'format_data' with pid 27364
+2018-09-29 11:25:38,823 INFO spawned: 'send_top' with pid 27365
+2018-09-29 11:25:39,212 INFO exited: format_data (exit status 1; not expected)
+2018-09-29 11:25:39,251 INFO exited: send_top (exit status 1; not expected)
+2018-09-29 11:25:42,258 INFO spawned: 'format_data' with pid 27372
+2018-09-29 11:25:42,262 INFO spawned: 'send_top' with pid 27373
+2018-09-29 11:25:42,602 INFO exited: format_data (exit status 1; not expected)
+2018-09-29 11:25:42,623 INFO gave up: format_data entered FATAL state, too many start retries too quickly
+2018-09-29 11:25:42,659 INFO exited: send_top (exit status 1; not expected)
+2018-09-29 11:25:43,661 INFO gave up: send_top entered FATAL state, too many start retries too quickly
+2018-09-29 11:35:13,118 INFO spawned: 'mail_raw' with pid 27585
+2018-09-29 11:35:13,162 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:35:14,168 INFO spawned: 'mail_raw' with pid 27586
+2018-09-29 11:35:14,213 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:35:16,223 INFO spawned: 'mail_raw' with pid 27587
+2018-09-29 11:35:16,269 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:35:19,277 INFO spawned: 'mail_raw' with pid 27588
+2018-09-29 11:35:19,323 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:35:20,324 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-09-29 11:35:37,113 WARN received SIGTERM indicating exit request
+2018-09-29 11:35:48,911 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-09-29 11:35:48,911 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-09-29 11:35:48,911 INFO Included extra file "/etc/supervisor/config.d/get_mail.ini" during parsing
+2018-09-29 11:35:48,911 INFO Included extra file "/etc/supervisor/config.d/send_top.ini" during parsing
+2018-09-29 11:35:48,926 INFO RPC interface 'supervisor' initialized
+2018-09-29 11:35:48,927 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-29 11:35:48,928 INFO daemonizing the supervisord process
+2018-09-29 11:35:48,930 INFO supervisord started with pid 27597
+2018-09-29 11:35:49,936 INFO spawned: 'send_top' with pid 27598
+2018-09-29 11:35:49,940 INFO spawned: 'format_data' with pid 27599
+2018-09-29 11:35:49,945 INFO spawned: 'mail_raw' with pid 27600
+2018-09-29 11:35:49,990 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:35:50,992 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 11:35:50,992 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 11:35:50,996 INFO spawned: 'mail_raw' with pid 27610
+2018-09-29 11:35:51,041 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:35:53,782 INFO spawned: 'mail_raw' with pid 27612
+2018-09-29 11:35:53,827 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:35:56,902 INFO spawned: 'mail_raw' with pid 27613
+2018-09-29 11:35:56,946 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:35:57,891 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-09-29 11:36:38,679 INFO spawned: 'mail_raw' with pid 27628
+2018-09-29 11:36:38,726 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:36:39,731 INFO spawned: 'mail_raw' with pid 27629
+2018-09-29 11:36:39,776 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:36:42,270 INFO spawned: 'mail_raw' with pid 27631
+2018-09-29 11:36:42,315 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:36:45,821 INFO spawned: 'mail_raw' with pid 27632
+2018-09-29 11:36:45,865 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:36:46,867 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-09-29 11:37:03,812 INFO spawned: 'mail_raw' with pid 27638
+2018-09-29 11:37:03,858 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:37:04,863 INFO spawned: 'mail_raw' with pid 27639
+2018-09-29 11:37:04,908 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:37:06,917 INFO spawned: 'mail_raw' with pid 27640
+2018-09-29 11:37:06,962 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:37:09,969 INFO spawned: 'mail_raw' with pid 27641
+2018-09-29 11:37:10,015 INFO exited: mail_raw (exit status 2; not expected)
+2018-09-29 11:37:11,017 INFO gave up: mail_raw entered FATAL state, too many start retries too quickly
+2018-09-29 11:37:17,025 WARN received SIGTERM indicating exit request
+2018-09-29 11:37:17,026 INFO waiting for send_top, format_data to die
+2018-09-29 11:37:18,036 INFO stopped: format_data (terminated by SIGTERM)
+2018-09-29 11:37:18,040 INFO stopped: send_top (terminated by SIGTERM)
+2018-09-29 11:37:46,764 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-09-29 11:37:46,764 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-09-29 11:37:46,764 INFO Included extra file "/etc/supervisor/config.d/get_mail.ini" during parsing
+2018-09-29 11:37:46,764 INFO Included extra file "/etc/supervisor/config.d/send_top.ini" during parsing
+2018-09-29 11:37:46,788 INFO RPC interface 'supervisor' initialized
+2018-09-29 11:37:46,788 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-29 11:37:46,790 INFO daemonizing the supervisord process
+2018-09-29 11:37:46,791 INFO supervisord started with pid 27663
+2018-09-29 11:37:47,798 INFO spawned: 'mail_raw' with pid 27664
+2018-09-29 11:37:47,803 INFO spawned: 'format_data' with pid 27665
+2018-09-29 11:37:47,807 INFO spawned: 'send_top' with pid 27666
+2018-09-29 11:37:48,809 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 11:37:48,809 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 11:37:48,809 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 12:07:42,845 INFO waiting for format_data to stop
+2018-09-29 12:07:42,852 INFO stopped: format_data (terminated by SIGTERM)
+2018-09-29 12:07:42,862 INFO spawned: 'format_data' with pid 27900
+2018-09-29 12:07:43,865 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 17:20:32,882 INFO waiting for format_data to stop
+2018-09-29 17:20:32,914 INFO stopped: format_data (terminated by SIGTERM)
+2018-09-29 17:21:43,138 INFO waiting for mail_raw to stop
+2018-09-29 17:21:43,150 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-09-29 17:21:47,873 INFO waiting for send_top to stop
+2018-09-29 17:21:47,879 INFO stopped: send_top (terminated by SIGTERM)
+2018-09-29 17:39:59,009 INFO spawned: 'format_data' with pid 31956
+2018-09-29 17:40:00,012 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 17:40:04,075 INFO spawned: 'mail_raw' with pid 31968
+2018-09-29 17:40:05,080 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-29 17:40:08,242 INFO spawned: 'send_top' with pid 31975
+2018-09-29 17:40:09,246 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-30 09:37:43,164 INFO exited: send_top (exit status 1; not expected)
+2018-09-30 09:37:44,177 INFO spawned: 'send_top' with pid 5572
+2018-09-30 09:37:44,642 INFO exited: send_top (exit status 1; not expected)
+2018-09-30 09:37:45,647 INFO spawned: 'send_top' with pid 5576
+2018-09-30 09:37:46,071 INFO exited: send_top (exit status 1; not expected)
+2018-09-30 09:37:48,077 INFO spawned: 'send_top' with pid 5580
+2018-09-30 09:37:48,463 INFO exited: send_top (exit status 1; not expected)
+2018-09-30 09:37:50,893 INFO exited: mail_raw (exit status 1; not expected)
+2018-09-30 09:37:51,898 INFO spawned: 'mail_raw' with pid 5584
+2018-09-30 09:37:51,903 INFO spawned: 'send_top' with pid 5585
+2018-09-30 09:37:52,283 INFO exited: send_top (exit status 1; not expected)
+2018-09-30 09:37:53,285 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-30 09:37:53,285 INFO gave up: send_top entered FATAL state, too many start retries too quickly
+2018-09-30 09:37:54,508 INFO exited: format_data (exit status 1; not expected)
+2018-09-30 09:37:55,514 INFO spawned: 'format_data' with pid 5595
+2018-09-30 09:37:56,516 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-30 09:38:05,981 INFO waiting for format_data to stop
+2018-09-30 09:38:05,988 INFO stopped: format_data (terminated by SIGTERM)
+2018-09-30 09:38:12,584 INFO waiting for mail_raw to stop
+2018-09-30 09:38:12,591 INFO stopped: mail_raw (terminated by SIGTERM)
+2018-09-30 11:19:43,718 WARN received SIGTERM indicating exit request
+2018-09-30 17:30:08,211 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-09-30 17:30:08,211 INFO Included extra file "/etc/supervisor/config.d/format_data.ini" during parsing
+2018-09-30 17:30:08,211 INFO Included extra file "/etc/supervisor/config.d/get_mail.ini" during parsing
+2018-09-30 17:30:08,211 INFO Included extra file "/etc/supervisor/config.d/send_top.ini" during parsing
+2018-09-30 17:30:08,264 INFO RPC interface 'supervisor' initialized
+2018-09-30 17:30:08,264 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-30 17:30:08,266 INFO daemonizing the supervisord process
+2018-09-30 17:30:08,268 INFO supervisord started with pid 10258
+2018-09-30 17:30:09,275 INFO spawned: 'send_top' with pid 10259
+2018-09-30 17:30:09,279 INFO spawned: 'format_data' with pid 10260
+2018-09-30 17:30:09,284 INFO spawned: 'mail_raw' with pid 10261
+2018-09-30 17:30:10,289 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-30 17:30:10,289 INFO success: format_data entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-30 17:30:10,289 INFO success: mail_raw entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-30 17:30:10,289 INFO exited: send_top (exit status 1; not expected)
+2018-09-30 17:30:10,586 INFO spawned: 'send_top' with pid 10281
+2018-09-30 17:30:11,598 INFO success: send_top entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
